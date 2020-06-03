@@ -4,20 +4,10 @@ import java.util.Scanner;
 
 public class Even_Odd {
 
-	public static void main(String args[]) 
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		
-	//Paste your program here
-	{
-	int num;
-    System.out.println("Enter an Integer number:");
-		
-		Scanner input = new Scanner(System.in);
-   		 num = input.nextInt();
-		
-	if ( num % 2 == 0 )
-         System.out.println("Entered number is even");
-        else
-        System.out.println("Entered number is odd");
+		sc.close();
 	}
 
 }
